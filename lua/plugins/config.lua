@@ -868,6 +868,7 @@ config.winsep = {
 }
 
 -- Colorschemes
+config["catppuccin"] = { "catppuccin/nvim", name = "catppuccin", lazy = true }
 config["cyberdream"] = { "scottmckendry/cyberdream.nvim", lazy = true }
 config["gruvbox"] = { "ellisonleao/gruvbox.nvim", lazy = true }
 config["kanagawa"] = { "rebelot/kanagawa.nvim", lazy = true }
